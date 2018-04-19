@@ -27,7 +27,7 @@
   },
   "scripts": {
     "dev": "webpack-dev-server --content-base --inline --hot",
-    "heroku-prebuild": "sh build.sh"
+    "heroku-postinstal": "webpack"
   },
   "devDependencies": {
     "babel-plugin-transform-runtime": "^6.23.0",
