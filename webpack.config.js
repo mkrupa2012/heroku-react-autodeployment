@@ -59,7 +59,7 @@ module.exports = {
         ]
     },
     output: {
-        path: path.join(__dirname, "./"),
+        path: "./",
         filename: "app.min.js"
     },
     plugins: [

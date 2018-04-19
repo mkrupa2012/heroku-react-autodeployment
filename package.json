@@ -27,7 +27,7 @@
   },
   "scripts": {
     "dev": "webpack-dev-server --content-base --inline --hot",
-    "heroku-postinstal": "webpack"
+    "heroku-postinstal": "webpack -p --config ./webpack.config.js --progress"
   },
   "devDependencies": {
     "babel-plugin-transform-runtime": "^6.23.0",
