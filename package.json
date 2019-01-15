@@ -26,6 +26,9 @@
     "transform-runtime": "0.0.0",
     "webpack-dev-server": "^2.9.1"
   },
+  "engines": {
+  "node": "11.6.0"
+  },
   "scripts": {
     "dev": "webpack-dev-server --content-base --inline --hot",
     "start": "harp server ~/public --port $PORT",
